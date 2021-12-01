@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Video Converter App</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    </head>
+    <body>
+        <div class="container">
+            <br><br>
+            <h1 style="text-align: center; border: 2px dashed gray;color: rgb(58, 230, 236);">Video Converter</h1>
+            <div class="form-group">
+                <label for="format">Exported Format:</label>
+                <select class="form-control" id="format">
+                  <option>m3u8</option>
+                </select>
+            </div>
+            <br>
+            <button style="background-color: gray; border: 2px solid black; border-radius: 20px;color: whitesmoke; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: bold;" class="btn btn-block" id="upload">Select File & Convert</button>
+            <br><br>
+            <div id="info"></div>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="renderer.js"></script>
+</html>
